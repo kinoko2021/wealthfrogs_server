@@ -1,0 +1,21 @@
+{
+  "name": "wealthfrogs_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/app.js",
+  },
+  "author": "kinoko",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "iconv-lite": "^0.6.3",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.19.0"
+  }
+}
